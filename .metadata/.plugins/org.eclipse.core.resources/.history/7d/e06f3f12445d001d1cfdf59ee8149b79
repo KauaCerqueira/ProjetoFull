@@ -1,0 +1,13 @@
+package br.mobpark.cliente.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.mobpark.cliente.respository.ClienteRepository;
+
+@Service
+public class ClienteServices {
+
+	@Autowired
+	private ClienteRepository repository;
+}

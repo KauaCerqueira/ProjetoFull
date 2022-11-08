@@ -1,0 +1,13 @@
+package br.mobpark.cliente.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import br.mobpark.cliente.model.ClienteModel;
+
+@SuppressWarnings({ "unused", "rawtypes" })
+@Repository
+public interface ClienteRepository extends CrudRepository {
+    
+}
+
