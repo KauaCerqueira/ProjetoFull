@@ -1,8 +1,0 @@
-package br.mobpark.cliente.respository;
-
-import org.springframework.data.repository.CrudRepository;
-
-@SuppressWarnings("unused")
-public interface ClienteRepository extends CrudRepository {
-
-}

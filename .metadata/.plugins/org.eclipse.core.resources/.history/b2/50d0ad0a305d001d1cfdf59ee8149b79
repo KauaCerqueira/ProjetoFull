@@ -1,5 +1,0 @@
-package br.mobpark.cliente.repository;
-
-public interface ClienteRepository {
-
-}
